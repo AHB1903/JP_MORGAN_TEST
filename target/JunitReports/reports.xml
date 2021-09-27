@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.831">
+<testcase classname="Verify JP Morgon logo" name="Verify the JP Morgan logo is shown" time="12.676">
+<system-out><![CDATA[Given User has opened Browser...............................................passed
+And User has all pageobjects................................................passed
+Given user verify the google page...........................................passed
+And enter "JP Morgan" in the search box.....................................passed
+And click on search button..................................................passed
+When user click on the first link...........................................passed
+Then user verify the logo of "JP Morgan" is displayed.......................passed
+And close the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

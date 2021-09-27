@@ -1,0 +1,141 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3044000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has opened Browser",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchTest.user_has_opened_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User has all pageobjects",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchTest.user_has_all_pageobjects()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T16:52:48.750Z",
+        "line": 9,
+        "name": "Verify the JP Morgan logo is shown",
+        "description": "",
+        "id": "verify-jp-morgon-logo;verify-the-jp-morgan-logo-is-shown",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1645000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verify the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchTest.user_verify_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter \"JP Morgan\" in the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"JP Morgan\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchTest.enter_in_the_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1595000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on search button",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchTest.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6059000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on the first link",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchTest.user_click_on_the_first_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user verify the logo of \"JP Morgan\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"JP Morgan\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchTest.user_verify_the_logo_of_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchTest.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify JP Morgon logo",
+    "description": "",
+    "id": "verify-jp-morgon-logo",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GoogleSearch.feature",
+    "tags": []
+  }
+]
